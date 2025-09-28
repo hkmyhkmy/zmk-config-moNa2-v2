@@ -109,8 +109,8 @@
         layer_1 {
             bindings = <
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans                       &kp RC(RG(F))  &kp F11               &kp RC(UP_ARROW)       &kp RG(N)  &kp RS(RG(NUMBER_4))
-&trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans            &trans     &kp RG(A)      &mkp MB1              &mkp MB2               &kp RG(C)  &kp RG(V)
-&trans  &kp N7        &kp N8        &kp N9        &trans  &trans    &trans     &kp RG(T)      &kp RG(LEFT_BRACKET)  &kp RG(RIGHT_BRACKET)  &kp RG(W)  &kp RG(X)
+&trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans            &trans     &kp RG(A)      &mkp MB1              &mkp MB2               &kp RG(W)  &trans
+&trans  &kp N7        &kp N8        &kp N9        &trans  &trans    &trans     &kp RG(T)      &kp RG(LEFT_BRACKET)  &kp RG(RIGHT_BRACKET)  &kp RG(W)  &trans
 &trans  &trans        &kp NUMBER_0  &trans        &trans  &trans    &kp RG(Z)  &kp RS(RG(Z))                                                          &trans
             >;
 
@@ -119,10 +119,10 @@
 
         layer_2 {
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN  &kp POUND          &kp DOLLAR  &kp PERCENT                       &kp CARET  &kp AMPERSAND   &kp ASTERISK  &kp UNDER        &kp PLUS
-&kp GRAVE        &kp TILDE    &kp DOUBLE_QUOTES  &kp SQT     &trans                  &trans    &trans     &mkp MB1        &kp UP_ARROW  &trans           &kp MINUS
-&kp F1           &kp F2       &kp F3             &kp F4      &kp F5       &kp F11    &kp HOME  &kp END    &kp LEFT_ARROW  &kp DOWN      &kp RIGHT_ARROW  &trans
-&trans           &trans       &trans             &trans      &trans       &trans     &trans    &trans                                                    &trans
+&kp EXCLAMATION  &tilde   &kp APOSTROPHE  &kp PERCENT    &kp PLUS                     &trans  &kp HOME        &kp UP_ARROW   &kp END    &trans
+&kp AT_SIGN      &bracet  &kp EQUAL       &kp AMPERSAND  &kp MINUS            &trans  &trans  &kp LEFT_ARROW  &kp DOWN       &kp RIGHT  &trans
+&trans           &trans   &trans          &trans         &trans     &trans    &trans  &trans  &kp PAGE_UP     &kp PAGE_DOWN  &trans     &trans
+&trans           &trans   &trans          &trans         &trans     &trans    &trans  &trans                                            &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
