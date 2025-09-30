@@ -109,7 +109,7 @@
         layer_1 {
             bindings = <
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans                       &kp RC(RG(F))  &kp F11               &kp RC(UP_ARROW)       &kp RG(N)    &kp RS(RG(NUMBER_4))
-&trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans            &trans     &kp RG(A)      &mkp MB1              &mkp MB2               &kp RG(TAB)  &trans
+&trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans            &trans     &kp RG(A)      &mkp MB1              &mkp MB2               &kp RG(TAB)  &kp RG(W)
 &trans  &kp N7        &kp N8        &kp N9        &trans  &trans    &trans     &kp RG(T)      &kp RG(LEFT_BRACKET)  &kp RG(RIGHT_BRACKET)  &kp RC(TAB)  &kp RG(W)
 &trans  &trans        &kp NUMBER_0  &trans        &trans  &trans    &kp RG(Z)  &kp RS(RG(Z))                                                            &trans
             >;
@@ -119,10 +119,10 @@
 
         layer_2 {
             bindings = <
-&kp EXCLAMATION  &tilde   &kp APOSTROPHE  &kp PERCENT    &kp PLUS                     &trans  &kp HOME        &kp UP_ARROW   &kp END    &trans
-&kp AT_SIGN      &bracet  &kp EQUAL       &kp AMPERSAND  &kp MINUS            &trans  &trans  &kp LEFT_ARROW  &kp DOWN       &kp RIGHT  &trans
-&trans           &trans   &trans          &trans         &trans     &trans    &trans  &trans  &kp PAGE_UP     &kp PAGE_DOWN  &trans     &trans
-&trans           &trans   &trans          &trans         &trans     &trans    &trans  &trans                                            &trans
+&kp EXCLAMATION  &bracet       &kp APOSTROPHE  &kp PERCENT    &kp PLUS                     &trans  &kp HOME        &kp UP_ARROW   &kp END    &trans
+&kp AT_SIGN      &parentheses  &kp EQUAL       &kp AMPERSAND  &kp MINUS            &trans  &trans  &kp LEFT_ARROW  &kp DOWN       &kp RIGHT  &trans
+&trans           &trans        &trans          &trans         &trans     &trans    &trans  &trans  &kp PAGE_UP     &kp PAGE_DOWN  &trans     &trans
+&trans           &trans        &trans          &trans         &trans     &trans    &trans  &trans                                            &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
