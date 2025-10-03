@@ -111,7 +111,7 @@
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LG(X)                                             &kp RC(RG(F))  &kp F11               &kp RC(UP_ARROW)       &kp RG(N)    &kp RS(RG(NUMBER_4))
 &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LG(C)                                  &kp RG(A)  &kp RG(C)      &mkp MB1              &mkp MB2               &kp RG(TAB)  &kp RG(W)
 &trans  &kp N7        &kp N8        &kp N9        &kp LG(V)           &trans                 &kp RG(X)  &kp RG(V)      &kp RG(LEFT_BRACKET)  &kp RG(RIGHT_BRACKET)  &kp RG(T)    &kp RG(W)
-&trans  &trans        &kp N0        &trans        &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)    &kp RG(Z)  &kp RS(RG(Z))                                                            &trans
+&trans  &trans        &kp N0        &trans        &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)    &kp RG(Z)  &kp RS(RG(Z))                                                            &kp RC(T)
             >;
 
             sensor-bindings = <&scroll_right_left>;
