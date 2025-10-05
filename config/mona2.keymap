@@ -24,13 +24,13 @@
     combos {
         compatible = "zmk,combos";
 
-        page_up {
-            bindings = <&lt 1 PG_UP>;
+        copy {
+            bindings = <&lt 1 RG(C)>;
             key-positions = <16 17>;
         };
 
-        page_down {
-            bindings = <&lt 1 PAGE_DOWN>;
+        paste {
+            bindings = <&lt 1 RG(V)>;
             key-positions = <17 18>;
         };
     };
