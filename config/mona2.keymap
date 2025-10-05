@@ -33,6 +33,11 @@
             bindings = <&kp RG(V)>;
             key-positions = <17 18>;
         };
+
+        cut {
+            bindings = <&kp RG(V)>;
+            key-positions = <6 7>;
+        };
     };
 
     macros {
