@@ -119,18 +119,18 @@
 &kp AMPS      &kp PRCNT  &kp SINGLE_QUOTE  &trans        &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)    &kp RG(Z)   &kp RS(RG(Z))                                                              &trans
             >;
 
-            sensor-bindings = <&scroll_right_left>;
+            sensor-bindings = <&inc_dec_kp C_BRI_INC C_BRI_DEC>;
         };
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans                &trans                &trans                    &trans  &kp HOME        &kp UP_ARROW   &kp END    &trans
-&trans  &trans  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans            &trans  &trans  &kp LEFT_ARROW  &kp DOWN       &kp RIGHT  &trans
-&trans  &trans  &trans                &trans                &trans  &trans    &trans  &trans  &kp PAGE_UP     &kp PAGE_DOWN  &trans     &trans
-&trans  &trans  &trans                &trans                &trans  &trans    &trans  &trans                                            &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &kp HOME        &kp UP_ARROW   &kp END    &trans
+&trans  &trans  &trans  &trans  &trans            &trans  &trans  &kp LEFT_ARROW  &kp DOWN       &kp RIGHT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp PAGE_UP     &kp PAGE_DOWN  &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                            &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         layer_3 {
@@ -141,7 +141,7 @@
 &trans  &trans              &trans                  &trans                   &trans                   &trans    &trans  &trans                                                   &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+            sensor-bindings = <&scroll_right_left>;
         };
 
         layer_4 {
