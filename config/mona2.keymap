@@ -38,6 +38,16 @@
             bindings = <&kp RG(X)>;
             key-positions = <6 7>;
         };
+
+        left {
+            bindings = <&kp LEFT_ARROW>;
+            key-positions = <18 19>;
+        };
+
+        right {
+            bindings = <&kp RIGHT_ARROW>;
+            key-positions = <19 20>;
+        };
     };
 
     macros {
