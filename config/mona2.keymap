@@ -119,7 +119,7 @@
 &kp AMPS      &kp PRCNT  &kp SINGLE_QUOTE  &trans        &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)    &kp RG(Z)   &kp RS(RG(Z))                                                              &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_BRI_INC C_BRI_DEC>;
+            sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_DEC C_BRIGHTNESS_INC>;
         };
 
         layer_2 {
@@ -130,7 +130,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                            &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         layer_3 {
