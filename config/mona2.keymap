@@ -58,6 +58,11 @@
             bindings = <&kp DOWN>;
             key-positions = <30 31>;
         };
+
+        shift {
+            bindings = <&kp RIGHT_SHIFT>;
+            key-positions = <40 17>;
+        };
     };
 
     macros {
