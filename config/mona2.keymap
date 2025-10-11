@@ -48,6 +48,16 @@
             bindings = <&kp RIGHT_ARROW>;
             key-positions = <19 20>;
         };
+
+        up {
+            bindings = <&kp UP_ARROW>;
+            key-positions = <7 8>;
+        };
+
+        down {
+            bindings = <&kp DOWN>;
+            key-positions = <30 31>;
+        };
     };
 
     macros {
