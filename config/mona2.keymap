@@ -100,6 +100,13 @@
             bindings = <&kp LANGUAGE_1 &kp LS(LEFT_BRACKET) &kp RS(RIGHT_BRACKET) &kp ENTER &kp LEFT_ARROW>;
             label = "NEW_BRACKET";
         };
+
+        split_right: split_right {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "SPLIT_RIGHT";
+        };
     };
 
     behaviors {
@@ -145,10 +152,10 @@
 
         layer_1 {
             bindings = <
-&bracet          &kp PLUS   &kp NUMBER_1   &kp NUMBER_2    &kp NUMBER_3                                           &trans         &kp F11               &kp RC(UP_ARROW)       &kp RC(RG(F))  &trans
-&parentheses     &kp MINUS  &kp NUMBER_4   &kp N5          &kp NUMBER_6                               &kp DELETE  &trans         &mkp MB1              &mkp MB2               &kp RG(TAB)    &kp RG(W)
-&new_bracket     &kp EQUAL  &kp N7         &kp N8          &kp N9              &kp N0                 &trans      &kp RG(T)      &kp RG(LEFT_BRACKET)  &kp RG(RIGHT_BRACKET)  &kp RC(TAB)    &kp RG(W)
-&kp EXCLAMATION  &kp PRCNT  &kp AMPERSAND  &kp APOSTROPHE  &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)    &kp RG(Z)   &kp RS(RG(Z))                                                              &trans
+&bracet          &kp PLUS   &kp NUMBER_1   &kp NUMBER_2    &kp NUMBER_3                                           &kp RC(RA(LEFT_ARROW))  &kp F11               &kp RC(UP_ARROW)       &kp RC(RG(F))  &kp RC(RA(RIGHT_ARROW))
+&parentheses     &kp MINUS  &kp NUMBER_4   &kp N5          &kp NUMBER_6                               &kp DELETE  &kp RC(RG(F))           &mkp MB1              &mkp MB2               &kp RG(TAB)    &kp RG(W)
+&new_bracket     &kp EQUAL  &kp N7         &kp N8          &kp N9              &kp N0                 &trans      &kp RG(T)               &kp RG(LEFT_BRACKET)  &kp RG(RIGHT_BRACKET)  &kp RC(TAB)    &kp RG(W)
+&kp EXCLAMATION  &kp PRCNT  &kp AMPERSAND  &kp APOSTROPHE  &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)    &kp RG(Z)   &kp RS(RG(Z))                                                                       &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_DEC C_BRIGHTNESS_INC>;
