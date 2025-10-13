@@ -63,6 +63,11 @@
             bindings = <&kp RIGHT_SHIFT>;
             key-positions = <40 17>;
         };
+
+        all_ {
+            bindings = <&kp RG(A)>;
+            key-positions = <15 16>;
+        };
     };
 
     macros {
