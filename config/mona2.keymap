@@ -78,6 +78,11 @@
             bindings = <&kp PAGE_DOWN>;
             key-positions = <29 30>;
         };
+
+        shift {
+            bindings = <&kp RSHIFT>;
+            key-positions = <31 32>;
+        };
     };
 
     macros {
