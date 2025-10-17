@@ -162,13 +162,13 @@
 
         layer_1 {
             bindings = <
-&bracet       &kp PLUS   &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3                                           &kp RC(RA(LEFT_ARROW))  &kp F11               &kp RC(UP_ARROW)       &kp RC(RG(F))  &kp RC(RA(RIGHT_ARROW))
-&parentheses  &kp MINUS  &kp NUMBER_4  &kp N5          &kp NUMBER_6                               &kp DELETE  &kp RG(A)               &mkp MB1              &mkp MB2               &kp RG(TAB)    &kp RG(H)
-&kp EXCL      &kp EQUAL  &kp N7        &kp N8          &kp N9              &kp N0                 &trans      &kp RG(T)               &kp RG(LEFT_BRACKET)  &kp RG(RIGHT_BRACKET)  &kp RC(TAB)    &kp RG(W)
-&kp AMPS      &kp PRCNT  &kp APOS      &kp UNDERSCORE  &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)    &kp RG(Z)   &kp RS(RG(Z))                                                                       &kp RG(Q)
+&bracet       &kp PLUS   &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3                                           &kp RC(RA(LEFT_ARROW))  &kp F11               &kp RC(UP_ARROW)       &kp RC(RG(F))    &kp RC(RA(RIGHT_ARROW))
+&parentheses  &kp MINUS  &kp NUMBER_4  &kp N5          &kp NUMBER_6                               &kp DELETE  &kp LEFT_ARROW          &mkp MB1              &mkp MB2               &kp RIGHT_ARROW  &kp RG(TAB)
+&kp EXCL      &kp EQUAL  &kp N7        &kp N8          &kp N9              &kp N0                 &trans      &kp RG(T)               &kp RG(LEFT_BRACKET)  &kp RG(RIGHT_BRACKET)  &kp RC(TAB)      &kp RG(W)
+&kp AMPS      &kp PRCNT  &kp APOS      &kp UNDERSCORE  &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)    &kp RG(Z)   &kp RS(RG(Z))                                                                         &kp RG(Q)
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&scroll_right_left>;
         };
 
         layer_2 {
