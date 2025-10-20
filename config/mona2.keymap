@@ -59,11 +59,6 @@
             key-positions = <30 31>;
         };
 
-        all_ {
-            bindings = <&kp RG(A)>;
-            key-positions = <15 16>;
-        };
-
         page_up {
             bindings = <&kp PAGE_UP>;
             key-positions = <28 29>;
@@ -72,6 +67,11 @@
         page_down {
             bindings = <&kp PAGE_DOWN>;
             key-positions = <29 30>;
+        };
+
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <10 11>;
         };
     };
 
