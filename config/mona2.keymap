@@ -68,6 +68,11 @@
             bindings = <&kp PAGE_DOWN>;
             key-positions = <29 30>;
         };
+
+        esc {
+            bindings = <&kp RC(ESCAPE)>;
+            key-positions = <10 11>;
+        };
     };
 
     macros {
