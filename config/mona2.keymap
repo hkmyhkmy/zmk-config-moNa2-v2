@@ -70,7 +70,7 @@
         };
 
         esc {
-            bindings = <&kp RC(ESCAPE)>;
+            bindings = <&kp ESCAPE>;
             key-positions = <10 11>;
         };
     };
