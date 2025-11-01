@@ -73,11 +73,6 @@
             bindings = <&kp ESCAPE>;
             key-positions = <10 11>;
         };
-
-        all {
-            bindings = <&kp RG(A)>;
-            key-positions = <15 16>;
-        };
     };
 
     macros {
