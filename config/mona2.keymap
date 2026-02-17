@@ -175,7 +175,7 @@
             bindings = <
 &trans  &kp HOME        &kp UP_ARROW    &kp END          &trans                    &trans  &kp HOME        &kp UP_ARROW   &kp END    &trans
 &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans            &trans  &trans  &kp LEFT_ARROW  &kp DOWN       &kp RIGHT  &trans
-&trans  &trans          &kp PAGE_UP     &trans           &trans  &trans    &trans  &trans  &kp PAGE_UP     &kp PAGE_DOWN  &trans     &trans
+&trans  &trans          &trans          &trans           &trans  &trans    &trans  &trans  &kp PAGE_UP     &kp PAGE_DOWN  &trans     &trans
 &trans  &trans          &trans          &trans           &trans  &trans    &trans  &trans                                            &trans
             >;
 
